@@ -57,7 +57,7 @@ To get a compressed version type ```gulp compress```
 
 Output directory is *public/* while the bundled but unminified sources go to *build/*
 
-***What's the meaning of 'Amoklauf'?***
+***What's does the word 'Amoklauf' mean?***
 
 It's a German word for 'rampage', 'running frenzy', or 'running amok'. :rage:
 
