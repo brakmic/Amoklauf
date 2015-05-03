@@ -2,21 +2,23 @@
 
 A demo WebApp built with <a href="https://ampersandjs.com" target="_blank">AmpersandJS & <a href="https://muut.com/riotjs" target="_blank">RiotJS</a>
 
-*AmpersandJS parts*
+
+
+**AmpersandJS parts**
 
 a) Router
 b) Views, Pages & View-Switcher
 c) Models
 d) Ampersand-App Singleton
 
-*RiotJS parts*
+**RiotJS parts**
 
 a) Custom UI elements
 b) Virtual DOM
 c) Templates
 
 
-*Functionalities*
+**Functions**
 
 This is just a demo but at least a 'functional' one. :smile
 
