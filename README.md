@@ -26,7 +26,7 @@ This is just a demo but at least a 'functional' one. :sunglasses:
 
 <ul>
   <li>It shows a *Login page* (enter anything)</li>
-  <li>uses a real, JSON-based remote service</li>
+  <li>uses a real, JSON-based remote service (<a href="http://www.jsontest.com" target="_blank">JSON Test</a>)</li>
   <li>has a Menu structure</li>
   <li>a Contact Form and a List page (RiotJS Custom elements)</li>
 </ul>
