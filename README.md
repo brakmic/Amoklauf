@@ -7,15 +7,22 @@ A demo WebApp built with <a href="https://ampersandjs.com" target="_blank">Amper
 **AmpersandJS parts**
 
 a) Router
+
 b) Views, Pages & View-Switcher
+
 c) Models
+
 d) Ampersand-App Singleton
+
 
 **RiotJS parts**
 
 a) Custom UI elements
+
 b) Virtual DOM
+
 c) Templates
+
 
 
 **Functions**
