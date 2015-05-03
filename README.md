@@ -22,7 +22,7 @@ A demo WebApp built with <a href="https://ampersandjs.com" target="_blank">Amper
 
 **Functions**
 
-This is just a demo but at least a 'functional' one. :smile
+This is just a demo but at least a 'functional' one. :sunglasses:
 
 <ul>
   <li>It shows a *Login page* (enter anything)</li>
