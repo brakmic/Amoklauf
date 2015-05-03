@@ -51,6 +51,8 @@ To develop use ```gulp watch``` which comes with LiveReload (if you run on Chrom
 
 Building is done with Browserify and a few transformers for HTML templates, Styles and Riot's Tag-Files.
 
+You can bundle CSS by setting a proper ```import``` statement in ```styles/app/default.styles```
+
 To get a compressed version type ```gulp compress```
 
 Output directory is *public/* while the bundled but unminified sources go to *build/*
