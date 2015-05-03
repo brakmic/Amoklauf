@@ -31,17 +31,15 @@ This is just a demo but at least a 'functional' one. :sunglasses:
   <li>a Contact Form and a List page (RiotJS Custom elements)</li>
 </ul>
 
-It also can serve as a boilerplate because is very easy to replace/remove parts
-
-of it which are not of interest (or buggy?).
+*It also can serve as a boilerplate because is very easy to replace/remove parts of it which are not of interest (or buggy?).*
 
 However, this is not because the demo is such a "cool" peace of software
 but because AmpersandJS & RiotJS go out of your way and let you choose parts
 which are of help to you. *They serve your needs and not the other way around.*
 
-All good & helpful parts in this demo are belong to AmpersandJS & RiotJS developers.
+All good & helpful parts in this demo are belong to **AmpersandJS & RiotJS developers**.
 
-All bugs, sloppy usage of technologies and misunderstood concepts are mine.
+All bugs, sloppy usage of technologies and misunderstood concepts **are mine**.
 
 ***Building & Running***
 
