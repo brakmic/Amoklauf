@@ -57,6 +57,12 @@ To get a compressed version type ```gulp compress```
 
 Output directory is *public/* while the bundled but unminified sources go to *build/*
 
+***What's the meaning of 'Amoklauf'?***
+
+It's a German word for 'rampage', 'running frenzy', or 'running amok'. :rage:
+
+I'm using **Riot**JS. Hence the name :innocent:
+
 ***License***
 
 MIT
