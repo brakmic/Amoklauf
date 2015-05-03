@@ -59,7 +59,7 @@ Output directory is *public/* while the bundled but unminified sources go to *bu
 
 ***What's does the word 'Amoklauf' mean?***
 
-It's a German word for 'rampage', 'running frenzy', or 'running amok'. :rage:
+It's a German word for *rampage*, *running frenzy*, or *running amok*. :rage:
 
 I'm using **Riot**JS. Hence the name :innocent:
 
