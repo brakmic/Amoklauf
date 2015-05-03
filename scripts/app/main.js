@@ -1,4 +1,4 @@
-//init the dependencies and start the app
+//init dependencies and start the app
 require('./config/deps.js');
 let app              = require('ampersand-app');
 let router           = app.network.router;
