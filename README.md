@@ -43,15 +43,15 @@ All bugs, sloppy usage of technologies and misunderstood concepts **are mine**.
 
 ***Building & Running***
 
-First, install packages with *npm install*
+First, install packages with: *npm install*
 
-To test the app run *npm start*
+To test the app run: *npm start*
 
-To develop use *gulp watch* which comes LiveReload (if you run on Chrome you can install the plugin)
+To develop use *gulp watch* which comes with LiveReload (if you run on Chrome you can install the plugin)
 
 Building is done with Browserify and a few transformers for HTML templates, Styles and Riot's Tag-Files.
 
-To get a compressed version type *gulp compress*
+To get a compressed version type: *gulp compress*
 
 Output directory is *public/* while the bundled but unminified sources go to *build/*
 
