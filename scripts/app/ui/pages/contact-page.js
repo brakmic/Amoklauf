@@ -2,7 +2,7 @@ let BasePage         = require('./base-page');
 let template         = require('../templates/contact-page.html');
 let MessagingService = require('../../services/messaging-service');
 let riot             = require('riot');
-require('../../tags/contact.tag');
+require('../tags/contact.tag');
 
 module.exports = BasePage.extend({
       pageTitle: 'Contact',

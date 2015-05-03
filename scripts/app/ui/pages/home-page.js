@@ -2,7 +2,7 @@ let BasePage            = require('./base-page');
 let template            = require('../templates/home-page.html');
 let app                 = require('ampersand-app');
 let riot                = require('riot');
-require('../../tags/dummy.tag');
+require('../tags/dummy.tag');
 
 module.exports = BasePage.extend({
     pageTitle: 'Home Page',
