@@ -1,0 +1,42 @@
+@import url("../bootstrap/css/bootstrap.css");
+@import url("../bootstrap/css/bootstrap-theme.css");
+@import url("http://fonts.googleapis.com/css?family=Alike");
+@import url("http://fonts.googleapis.com/css?family=Nosifer");
+@import url("http://fonts.googleapis.com/css?family=Noticia+Text");
+
+html, body {
+    height: 100%;
+}
+/* .fill-height {
+    min-height: 100%;
+    height:auto !important;
+    height: 100%;
+} */
+.container-fluid,.panel {
+  height:100%;
+}
+.about-page {
+  position:relative;
+  left:30%;
+  top:0px;
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif
+}
+.about-text-header {
+  text-align: center;
+  font-family: Nosifer;
+  color: #C92B2B;
+  font-size: 50;
+  padding: 10;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #A1A1A1;
+}
+
+.about-text {
+  text-align: center;
+  font-family: Noticia+Text;
+  color: #C92B2B;
+  font-size: 32;
+  padding: 10;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #A1A1A1;
+}
