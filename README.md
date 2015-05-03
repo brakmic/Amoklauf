@@ -33,7 +33,7 @@ This is just a demo but at least a 'functional' one. :sunglasses:
 
 *It also can serve as a boilerplate because is very easy to replace/remove parts of it which are not of interest (or buggy?).*
 
-However, this is not because the demo is such a "cool" peace of software
+However, this is not because the demo is such a "cool" piece of software
 but because AmpersandJS & RiotJS go out of your way and let you choose parts
 which are of help to you. *They serve your needs and not the other way around.*
 
