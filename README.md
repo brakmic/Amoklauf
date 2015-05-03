@@ -1,4 +1,4 @@
-*Amoklauf!*
+<img src="http://r13.imgup.net/amoklaufa0f9.png">
 
 A demo WebApp built with <a href="https://ampersandjs.com" target="_blank">AmpersandJS & <a href="https://muut.com/riotjs" target="_blank">RiotJS</a>
 
