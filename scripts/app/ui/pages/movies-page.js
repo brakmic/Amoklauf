@@ -31,7 +31,7 @@ module.exports = BasePage.extend({
         this.movieStore = new MovieStore();
         RiotControl.addStore(this.movieStore);
         riot.mount('movies', {
-                                title: 'Movies Collection'
+                                title: 'Movie Collection'
                             });
     }
 });
