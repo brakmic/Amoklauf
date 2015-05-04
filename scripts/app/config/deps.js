@@ -51,6 +51,6 @@ module.exports = (function() {
     });
     app.init();
     app.network.router = new Router();
-    window.app = app;
+    //window.app = app; use only for debugging!
     console.log(`Running amok v${app.version}`);
 }());
