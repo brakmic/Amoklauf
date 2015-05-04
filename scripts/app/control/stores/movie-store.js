@@ -73,7 +73,7 @@ export default class MovieStore {
                         },
                         {
                           id: 2,
-                          lastName: 'Danny',
+                          firstName: 'Danny',
                           lastName: 'Lloyd'
                         }
                 ],
