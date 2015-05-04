@@ -7,6 +7,7 @@ let HomePage       = require('../../ui/pages/home-page');
 let AboutPage      = require('../../ui/pages/about-page');
 let ContactPage    = require('../../ui/pages/contact-page');
 let LoginPage      = require('../../ui/pages/login-page');
+let MoviesPage     = require('../../ui/pages/movies-page');
 
 let AppRouter = Router.extend({
     initialize: function() {
@@ -16,6 +17,7 @@ let AppRouter = Router.extend({
         'home'      : 'home',
         'about'     : 'about',
         'contact'   : 'contact',
+        'movies'    : 'movies',
         'login'     : 'login',
         '(*path)'   : 'catchAll'
 
@@ -42,6 +44,15 @@ let AppRouter = Router.extend({
             app.navigate('/login', {trigger: false});
         }else {
             let page = new ContactPage();
+            this.trigger('page', page);
+            page.initUI();
+        }
+    },
+    movies: function() {
+        if (!app.user.loggedOn) {
+            app.navigate('/login', {trigger: false});
+        }else {
+            let page = new MoviesPage();
             this.trigger('page', page);
             page.initUI();
         }

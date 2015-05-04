@@ -1,13 +1,14 @@
 //the App starts here and we use AmpersandJS App-package
 
-window.$         = window.jQuery = require('jquery');
-window.Bootstrap = require('bootstrap');
+window.$           = window.jQuery = require('jquery');
+window.Bootstrap   = require('bootstrap');
+window.RiotControl = require('riotcontrol');
 require('../../../styles/app/default-styles.css');
-var app          = require('ampersand-app');
-var Router       = require('../routing/client/amp-router.js');
-var cuid         = require('cuid');
-var moment       = require('moment');
-var UserModel    = require('../models/user-model');
+var app            = require('ampersand-app');
+var Router         = require('../routing/client/amp-router.js');
+var cuid           = require('cuid');
+var moment         = require('moment');
+var UserModel      = require('../models/user-model');
 
 module.exports = (function() {
     app.extend({
@@ -35,6 +36,7 @@ module.exports = (function() {
                     contentType: 'application/json;charset=utf-8'
                 }
             };
+            app.control   = {};
             app.libraries = {};
             //helper function for easy navigating between pages (taken from
             //AmpersandJS docs)
@@ -49,5 +51,6 @@ module.exports = (function() {
     });
     app.init();
     app.network.router = new Router();
+    window.app = app;
     console.log(`Running amok v${app.version}`);
 }());

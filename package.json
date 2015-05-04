@@ -75,6 +75,7 @@
     "jquery": "^2.1.4",
     "moment": "^2.10.2",
     "riot": "^2.0.15",
+    "riotcontrol": "0.0.1",
     "riotjs": "^1.0.4",
     "underscore": "^1.8.3"
   }

@@ -7,12 +7,14 @@
 html, body {
     height: 100%;
 }
-/* .fill-height {
+.fill-height {
     min-height: 100%;
     height:auto !important;
     height: 100%;
-} */
+}
 .container-fluid,.panel {
+  position: relative;
+  border: 0;
   height:100%;
 }
 .about-page {

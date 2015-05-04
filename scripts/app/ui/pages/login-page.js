@@ -46,8 +46,8 @@ module.exports = BasePage.extend({
                                 .done(function(result) {
                                     app.user.loggedOn  = true;
                                     app.user.token     = result;
-                                    app.user.firstName = 'John';
-                                    app.user.lastName  = 'Doe';
+                                    app.user.firstName = 'Norman';
+                                    app.user.lastName  = 'Bates';
                                     self.router.redirectTo('/about');
                                 }).fail(function(xhr, status, err) {
                                     alert(`Login failed with status: ${err}`);
