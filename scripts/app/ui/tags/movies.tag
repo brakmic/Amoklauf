@@ -11,9 +11,10 @@
       <h4 class="entry-subtext">{ synopsis }</h4>
       <div>
         <h4>Starring:</h4>
-        <ul>
-          <li each={ stars }>
-          </li>
+        <ul> <!-- it seems RiotJS can't handle derived properties from AmpersandJS models -->
+          <!-- therefore we use a much uglier syntax to get actor's full name -->
+          <!-- I'll investigate this issue (almost sure the problem is not with Riot but with my buggy code) -->
+          <li class="actor-info" each={ stars }><span>{ firstName + ' ' + lastName }</span></li>
         </ul>
       </div>
         <a class="entry" onclick={ parent.remove }>Remove</a>
@@ -48,11 +49,8 @@
       display: block;
       padding-left: 10em;
     }
-    .yuno-img {
-       align: left;
-    }
-    .riot-img {
-       align: right;
+    .actor-info {
+      font-weight: bold;
     }
     ul {
       list-style-type: none;

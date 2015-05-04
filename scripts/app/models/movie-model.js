@@ -1,4 +1,5 @@
 let Model = require('ampersand-model');
+let ActorCollection = require('./movie-actor-collection');
 
 module.exports = Model.extend({
   idProperty: 'id',
@@ -6,7 +7,9 @@ module.exports = Model.extend({
     id: 'number',
     title: 'string',
     synopsis: 'string',
-    stars: 'array',
     poster: 'string'
+  },
+  collections: {
+    stars: ActorCollection
   }
 });
