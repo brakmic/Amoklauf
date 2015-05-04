@@ -58,7 +58,7 @@ You can bundle CSS by setting a proper ```import``` statement in ```styles/app/d
 
 To get a compressed version type ```gulp compress```
 
-Output directory is *public/* while the bundled but unminified sources go to *build/*
+Output directory is *public/* while the bundled but *unminified* sources go to *build/*
 
 ***Video***
 
