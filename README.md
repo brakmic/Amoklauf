@@ -17,18 +17,21 @@ A demo WebApp built with <a href="https://ampersandjs.com" target="_blank">Amper
   <li>Custom UI elements</li>
   <li>Virtual DOM</li>
   <li>Templates</li>
+  <li><a href="https://github.com/jimsparkman/RiotControl" target="_blank">RiotControl</a> (a <a href="https://github.com/facebook/flux" target="_blank">Flux</a>-like Event-Controller/Dispatcher)</li>
 </ul>
 
 
 **Functions**
 
-This is just a demo but at least a 'functional' one. :sunglasses:
+This is just a demo but at least a *functional* one. :sunglasses:
 
 <ul>
-  <li>It shows a *Login page* (enter anything)</li>
+  <li>It shows a Login page (enter anything)</li>
   <li>uses a real, JSON-based remote service (<a href="http://www.jsontest.com" target="_blank">JSON Test</a>)</li>
   <li>has a Menu structure</li>
-  <li>a Contact Form and a List page (RiotJS Custom elements)</li>
+  <li>has a Movie-list built with RiotControl and AmpersandJS Model &amp; Collections</li>
+  <li>a Todo-List</li>
+  <li>and a Contact Form</li>
 </ul>
 
 *It also can serve as a boilerplate because is very easy to replace/remove parts of it which are not of interest (or buggy?).*
