@@ -64,7 +64,7 @@ Output directory is *public/* while the bundled but *unminified* sources go to *
 
 [![Showcase](http://img.youtube.com/vi/3PQXkaVeuvA/1.jpg)](http://www.youtube.com/watch?v=3PQXkaVeuvA)
 
-***What's does the word 'Amoklauf' mean?***
+***What does the word 'Amoklauf' mean?***
 
 It's a German word for *rampage*, *running frenzy*, or *running amok*. :rage:
 
