@@ -34,7 +34,7 @@ This is just a demo but at least a *functional* one. :sunglasses:
   <li>and a Contact Form</li>
 </ul>
 
-*It also can serve as a boilerplate because is very easy to replace/remove parts of it which are not of interest (or buggy?).*
+*It also can serve as a boilerplate because is very easy to replace/remove parts which are not of interest (or buggy?).*
 
 However, this is not because the demo is such a nice piece of software
 but because AmpersandJS & RiotJS go out of your way and let you choose parts
@@ -64,7 +64,7 @@ Output directory is *public/* while the bundled but *unminified* sources go to *
 
 [![Showcase](http://img.youtube.com/vi/3PQXkaVeuvA/1.jpg)](http://www.youtube.com/watch?v=3PQXkaVeuvA)
 
-***What's does the word 'Amoklauf' mean?***
+***What does the word 'Amoklauf' mean?***
 
 It's a German word for *rampage*, *running frenzy*, or *running amok*. :rage:
 
