@@ -1,6 +1,4 @@
 let riot       = require('riot');
-let _          = require('underscore');
-let MovieModel = require('../../models/movie-model');
 let MovieCollection = require('../../models/movie-collection');
 
 export default class MovieStore {
@@ -141,7 +139,7 @@ export default class MovieStore {
     });
     this.on('get_movie_list', function(cb) {
       this.getMovieList(cb);
-    })
+    });
     this.on('reset_movie_list', function() {
       this.resetMovieList();
       this.trigger('movie_list_changed', this.movies.serialize());
